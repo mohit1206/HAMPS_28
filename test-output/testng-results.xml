@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31383" started-at="2017-08-28T07:51:53Z" finished-at="2017-08-28T07:52:24Z">
+    <groups>
+    </groups>
+    <test name="FF Test" duration-ms="31383" started-at="2017-08-28T07:51:53Z" finished-at="2017-08-28T07:52:24Z">
+      <class name="com.ctli.it.testcases.NaukiriTestcase2">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.ctli.it.testcases.NaukiriTestcase2@5faeada1]" name="initialSetUp" is-config="true" duration-ms="408" started-at="2017-08-28T13:21:52Z" finished-at="2017-08-28T13:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="launchApp(java.lang.reflect.Method, org.testng.xml.XmlTest)[pri:0, instance:com.ctli.it.testcases.NaukiriTestcase2@5faeada1]" name="launchApp" is-config="true" duration-ms="16425" started-at="2017-08-28T13:21:53Z" finished-at="2017-08-28T13:22:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ctli.it.testcases.NaukiriTestcase2.CVUpload()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "FF Test" verbose:1[parameters:browser=>IE][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.ctli.it.testcases.NaukiriTestcase2]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="CVUpload()[pri:0, instance:com.ctli.it.testcases.NaukiriTestcase2@5faeada1]" name="CVUpload" duration-ms="12720" started-at="2017-08-28T13:22:09Z" finished-at="2017-08-28T13:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CVUpload -->
+        <test-method status="PASS" signature="closeApp(java.lang.reflect.Method, org.testng.xml.XmlTest, org.testng.ITestResult)[pri:0, instance:com.ctli.it.testcases.NaukiriTestcase2@5faeada1]" name="closeApp" is-config="true" duration-ms="2224" started-at="2017-08-28T13:22:22Z" finished-at="2017-08-28T13:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ctli.it.testcases.NaukiriTestcase2.CVUpload()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "FF Test" verbose:1[parameters:browser=>IE][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.ctli.it.testcases.NaukiriTestcase2]  packages:] ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=CVUpload status=SUCCESS method=NaukiriTestcase2.CVUpload()[pri:0, instance:com.ctli.it.testcases.NaukiriTestcase2@5faeada1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterSuite(org.testng.xml.XmlTest)[pri:0, instance:com.ctli.it.testcases.NaukiriTestcase2@5faeada1]" name="afterSuite" is-config="true" duration-ms="309" started-at="2017-08-28T13:22:24Z" finished-at="2017-08-28T13:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "FF Test" verbose:1[parameters:browser=>IE][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.ctli.it.testcases.NaukiriTestcase2]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.ctli.it.testcases.NaukiriTestcase2 -->
+    </test> <!-- FF Test -->
+  </suite> <!-- Suite -->
+</testng-results>

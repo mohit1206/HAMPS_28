@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="FF"/>
+  <test name="FF Test(failed)">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="com.ctli.it.testcases.NaukiriTestcase2">
+        <methods>
+          <include name="initialSetUp"/>
+          <include name="launchApp"/>
+          <include name="afterSuite"/>
+          <include name="closeApp"/>
+          <include name="CVUpload"/>
+        </methods>
+      </class> <!-- com.ctli.it.testcases.NaukiriTestcase2 -->
+    </classes>
+  </test> <!-- FF Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
